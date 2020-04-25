@@ -7,13 +7,14 @@
     "exec": "cross-env VUE_CLI_BABEL_TARGET_NODE=true VUE_CLI_BABEL_TRANSPILE_MODULES=true jest --json",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "submit": "codenation-jest-score ./score-map.json"
+    "submit": "codenation-jest-score ./score-map.json",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
     "bulma": "^0.8.2",
     "codenation-jest-score": "https://github.com/thecodenation/codenation-jest-score/tarball/master",
     "core-js": "^2.6.5",
-    "vue": "^2.6.10"
+    "vue": "^2.6.11"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.8.0",
@@ -23,7 +24,10 @@
     "jest-puppeteer": "^4.2.0",
     "node-sass": "^4.9.0",
     "puppeteer": "^1.17.0",
+    "push-dir": "^0.4.1",
     "sass-loader": "^7.1.0",
-    "vue-template-compiler": "^2.6.10"
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
   }
 }
