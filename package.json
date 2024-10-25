@@ -14,7 +14,7 @@
     "bulma": "^0.8.2",
     "codenation-jest-score": "https://github.com/thecodenation/codenation-jest-score/tarball/master",
     "core-js": "^2.6.5",
-    "vue": "^2.6.11"
+    "vue": "^3.0.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.8.0",
